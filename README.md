@@ -5,6 +5,11 @@ We start by creating the database and tables and inserting the datasets.
 CREATE DATABASE company_1;
 ```
 
+# Connect to the database
+```
+\c company_1
+```
+
 # Create tables
 ```sql
 CREATE TABLE dept (
