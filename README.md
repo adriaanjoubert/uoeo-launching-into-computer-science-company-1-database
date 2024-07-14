@@ -1,5 +1,10 @@
 We start by creating the database and tables and inserting the datasets.
 
+# Open a MySQL shell
+```bash
+sudo mysql
+```
+
 # Create database
 ```sql
 CREATE DATABASE company_1;
@@ -7,7 +12,7 @@ CREATE DATABASE company_1;
 
 # Connect to the database
 ```
-\c company_1
+connect company_1
 ```
 
 # Create tables
