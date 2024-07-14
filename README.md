@@ -27,11 +27,11 @@ CREATE TABLE emp (
   empno integer PRIMARY KEY,
   ename varchar(256) NOT NULL,
   job varchar(64) NOT NULL,
-  mgr integer REFERENCES emp(empno) DEFAULT NULL,
+  mgr integer DEFAULT NULL REFERENCES emp(empno),
   hiredate date NOT NULL,
-  sal integer NOT NULL CHECK > 0),
+  sal integer NOT NULL CHECK (sal > 0),
   comm integer DEFAULT NULL,
-  deptno integer REFERENCES dept(deptno) NOT NULL
+  deptno integer NOT NULL REFERENCES dept(deptno)
 );
 ```
 
