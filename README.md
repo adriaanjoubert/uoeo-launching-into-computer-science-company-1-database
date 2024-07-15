@@ -1,3 +1,5 @@
+GitHub: https://github.com/adriaanjoubert/uoeo-launching-into-computer-science-company-1-database
+
 We start by creating the database and tables and inserting the datasets.
 
 # Open a MySQL shell
